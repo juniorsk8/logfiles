@@ -1,0 +1,96 @@
+I, [2015-06-08T03:43:28.740559 #5034]  INFO -- : inherited addr=/home/web/swift-explorer/shared/tmp/sockets/unicorn.sock fd=12
+I, [2015-06-08T03:43:28.740890 #5034]  INFO -- : Refreshing Gem list
+I, [2015-06-08T03:43:32.754565 #5049]  INFO -- : worker=0 ready
+I, [2015-06-08T03:43:33.758101 #5052]  INFO -- : worker=1 ready
+I, [2015-06-08T03:43:34.772200 #5069]  INFO -- : worker=2 ready
+I, [2015-06-08T03:43:35.778534 #5072]  INFO -- : worker=3 ready
+I, [2015-06-08T03:43:36.783615 #5075]  INFO -- : worker=4 ready
+I, [2015-06-08T03:43:37.787107 #5078]  INFO -- : worker=5 ready
+I, [2015-06-08T03:43:38.792661 #5083]  INFO -- : worker=6 ready
+I, [2015-06-08T03:43:39.791708 #5034]  INFO -- : master process ready
+I, [2015-06-08T03:43:39.800552 #5088]  INFO -- : worker=7 ready
+I, [2015-06-08T03:48:54.720154 #5404]  INFO -- : executing ["/home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn", "-Dc", "./config/unicorn/production.rb", "-E", "production", {12=>#<Kgio::UNIXServer:fd 12>}] (in /home/web/swift-explorer/releases/20150608064804)
+I, [2015-06-08T03:48:55.327127 #5404]  INFO -- : inherited addr=/home/web/swift-explorer/shared/tmp/sockets/unicorn.sock fd=12
+I, [2015-06-08T03:48:55.327500 #5404]  INFO -- : Refreshing Gem list
+I, [2015-06-08T03:48:58.491683 #5034]  INFO -- : reaped #<Process::Status: pid 5088 exit 0> worker=7
+I, [2015-06-08T03:48:59.414673 #5419]  INFO -- : worker=0 ready
+I, [2015-06-08T03:48:59.560813 #5034]  INFO -- : reaped #<Process::Status: pid 5083 exit 0> worker=6
+I, [2015-06-08T03:49:00.410184 #5422]  INFO -- : worker=1 ready
+I, [2015-06-08T03:49:00.516394 #5034]  INFO -- : reaped #<Process::Status: pid 5078 exit 0> worker=5
+I, [2015-06-08T03:49:01.416742 #5439]  INFO -- : worker=2 ready
+I, [2015-06-08T03:49:01.536949 #5034]  INFO -- : reaped #<Process::Status: pid 5075 exit 0> worker=4
+I, [2015-06-08T03:49:02.428085 #5442]  INFO -- : worker=3 ready
+I, [2015-06-08T03:49:02.550318 #5034]  INFO -- : reaped #<Process::Status: pid 5072 exit 0> worker=3
+I, [2015-06-08T03:49:03.438220 #5445]  INFO -- : worker=4 ready
+I, [2015-06-08T03:49:03.582461 #5034]  INFO -- : reaped #<Process::Status: pid 5069 exit 0> worker=2
+I, [2015-06-08T03:49:04.451821 #5448]  INFO -- : worker=5 ready
+I, [2015-06-08T03:49:04.559683 #5034]  INFO -- : reaped #<Process::Status: pid 5052 exit 0> worker=1
+I, [2015-06-08T03:49:05.462724 #5453]  INFO -- : worker=6 ready
+I, [2015-06-08T03:49:05.651012 #5034]  INFO -- : reaped #<Process::Status: pid 5049 exit 0> worker=0
+I, [2015-06-08T03:49:05.651160 #5034]  INFO -- : master complete
+I, [2015-06-08T03:49:06.452285 #5404]  INFO -- : master process ready
+I, [2015-06-08T03:49:06.461664 #5458]  INFO -- : worker=7 ready
+I, [2015-06-09T17:27:25.955820 #5404]  INFO -- : reaped #<Process::Status: pid 5439 exit 0> worker=2
+I, [2015-06-09T17:27:26.968848 #10034]  INFO -- : worker=2 ready
+I, [2015-06-09T17:27:55.817939 #5404]  INFO -- : reaped #<Process::Status: pid 5419 exit 0> worker=0
+I, [2015-06-09T17:27:56.829346 #10040]  INFO -- : worker=0 ready
+I, [2015-06-10T09:24:56.272842 #5404]  INFO -- : reaped #<Process::Status: pid 5445 exit 0> worker=4
+I, [2015-06-10T09:24:57.288864 #12686]  INFO -- : worker=4 ready
+I, [2015-06-10T10:05:56.374475 #5404]  INFO -- : reaped #<Process::Status: pid 5422 exit 0> worker=1
+I, [2015-06-10T10:05:57.386950 #15569]  INFO -- : worker=1 ready
+I, [2015-06-10T10:06:26.316252 #5404]  INFO -- : reaped #<Process::Status: pid 5453 exit 0> worker=6
+I, [2015-06-10T10:06:27.326151 #15965]  INFO -- : worker=6 ready
+I, [2015-06-10T10:07:26.310605 #5404]  INFO -- : reaped #<Process::Status: pid 10034 exit 0> worker=2
+I, [2015-06-10T10:07:27.313872 #5404]  INFO -- : reaped #<Process::Status: pid 5458 exit 0> worker=7
+I, [2015-06-10T10:07:27.321862 #16172]  INFO -- : worker=2 ready
+I, [2015-06-10T10:07:28.328551 #16175]  INFO -- : worker=7 ready
+I, [2015-06-10T10:43:56.437430 #5404]  INFO -- : reaped #<Process::Status: pid 5448 exit 0> worker=5
+I, [2015-06-10T10:43:57.451545 #19134]  INFO -- : worker=5 ready
+I, [2015-06-10T10:44:26.319435 #5404]  INFO -- : reaped #<Process::Status: pid 15965 exit 0> worker=6
+I, [2015-06-10T10:44:27.330040 #19145]  INFO -- : worker=6 ready
+I, [2015-06-10T10:44:56.332534 #5404]  INFO -- : reaped #<Process::Status: pid 10040 exit 0> worker=0
+I, [2015-06-10T10:44:57.342928 #19465]  INFO -- : worker=0 ready
+I, [2015-06-10T10:46:56.332675 #5404]  INFO -- : reaped #<Process::Status: pid 19134 exit 0> worker=5
+I, [2015-06-10T10:46:57.336240 #5404]  INFO -- : reaped #<Process::Status: pid 5442 exit 0> worker=3
+I, [2015-06-10T10:46:57.347907 #20222]  INFO -- : worker=5 ready
+I, [2015-06-10T10:46:58.354345 #20225]  INFO -- : worker=3 ready
+I, [2015-06-10T10:47:56.330693 #5404]  INFO -- : reaped #<Process::Status: pid 16172 exit 0> worker=2
+I, [2015-06-10T10:47:57.342232 #20231]  INFO -- : worker=2 ready
+I, [2015-06-10T14:26:26.506836 #5404]  INFO -- : reaped #<Process::Status: pid 12686 exit 0> worker=4
+I, [2015-06-10T14:26:27.519038 #25808]  INFO -- : worker=4 ready
+I, [2015-06-10T14:29:26.492882 #5404]  INFO -- : reaped #<Process::Status: pid 19145 exit 0> worker=6
+I, [2015-06-10T14:29:27.505848 #28871]  INFO -- : worker=6 ready
+I, [2015-06-10T14:29:56.425135 #5404]  INFO -- : reaped #<Process::Status: pid 20231 exit 0> worker=2
+I, [2015-06-10T14:29:57.429020 #5404]  INFO -- : reaped #<Process::Status: pid 19465 exit 0> worker=0
+I, [2015-06-10T14:29:57.434938 #29177]  INFO -- : worker=2 ready
+I, [2015-06-10T14:29:58.443840 #29196]  INFO -- : worker=0 ready
+I, [2015-06-10T14:30:05.942896 #5404]  INFO -- : reaped #<Process::Status: pid 20225 exit 0> worker=3
+I, [2015-06-10T14:30:06.959109 #29446]  INFO -- : worker=3 ready
+I, [2015-06-10T14:30:26.488126 #5404]  INFO -- : reaped #<Process::Status: pid 20222 exit 0> worker=5
+I, [2015-06-10T14:30:27.499120 #29859]  INFO -- : worker=5 ready
+I, [2015-06-10T14:30:56.438989 #5404]  INFO -- : reaped #<Process::Status: pid 25808 exit 0> worker=4
+I, [2015-06-10T14:30:57.449926 #30217]  INFO -- : worker=4 ready
+I, [2015-06-10T14:31:26.467665 #5404]  INFO -- : reaped #<Process::Status: pid 15569 exit 0> worker=1
+I, [2015-06-10T14:31:27.477253 #30223]  INFO -- : worker=1 ready
+I, [2015-06-10T14:31:56.443793 #5404]  INFO -- : reaped #<Process::Status: pid 16175 exit 0> worker=7
+I, [2015-06-10T14:31:57.453452 #30229]  INFO -- : worker=7 ready
+I, [2015-06-10T14:32:26.441320 #5404]  INFO -- : reaped #<Process::Status: pid 28871 exit 0> worker=6
+I, [2015-06-10T14:32:27.462561 #30982]  INFO -- : worker=6 ready
+I, [2015-06-10T14:35:31.463991 #5404]  INFO -- : reaped #<Process::Status: pid 30217 exit 0> worker=4
+I, [2015-06-10T14:35:32.484245 #638]  INFO -- : worker=4 ready
+I, [2015-06-10T14:35:33.241430 #5404]  INFO -- : reaped #<Process::Status: pid 29196 exit 0> worker=0
+I, [2015-06-10T14:35:34.251752 #752]  INFO -- : worker=0 ready
+I, [2015-06-10T14:49:26.499825 #5404]  INFO -- : reaped #<Process::Status: pid 30982 exit 0> worker=6
+I, [2015-06-10T14:49:27.512768 #2264]  INFO -- : worker=6 ready
+I, [2015-06-10T14:49:56.491428 #5404]  INFO -- : reaped #<Process::Status: pid 29446 exit 0> worker=3
+I, [2015-06-10T14:49:57.509503 #2270]  INFO -- : worker=3 ready
+I, [2015-06-11T07:37:30.123806 #8053]  INFO -- : executing ["/home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn", "-Dc", "./config/unicorn/production.rb", "-E", "production", {12=>#<Kgio::UNIXServer:fd 12>}] (in /home/web/swift-explorer/releases/20150608064804)
+I, [2015-06-11T07:37:33.604102 #5404]  INFO -- : reaped #<Process::Status: pid 30229 exit 0> worker=7
+I, [2015-06-11T07:37:34.593731 #5404]  INFO -- : reaped #<Process::Status: pid 2264 exit 0> worker=6
+I, [2015-06-11T07:37:35.614986 #5404]  INFO -- : reaped #<Process::Status: pid 29859 exit 0> worker=5
+I, [2015-06-11T07:37:36.618488 #5404]  INFO -- : reaped #<Process::Status: pid 638 exit 0> worker=4
+I, [2015-06-11T07:37:37.624788 #5404]  INFO -- : reaped #<Process::Status: pid 2270 exit 0> worker=3
+I, [2015-06-11T07:37:38.640967 #5404]  INFO -- : reaped #<Process::Status: pid 29177 exit 0> worker=2
+I, [2015-06-11T07:37:39.645625 #5404]  INFO -- : reaped #<Process::Status: pid 30223 exit 0> worker=1
+I, [2015-06-11T07:37:40.723031 #5404]  INFO -- : reaped #<Process::Status: pid 752 exit 0> worker=0
+I, [2015-06-11T07:37:40.723157 #5404]  INFO -- : master complete

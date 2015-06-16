@@ -1,0 +1,11 @@
+I, [2015-06-11T07:37:30.564773 #8053]  INFO -- : inherited addr=/home/web/swift-explorer/shared/tmp/sockets/unicorn.sock fd=12
+I, [2015-06-11T07:37:30.565075 #8053]  INFO -- : Refreshing Gem list
+I, [2015-06-11T07:37:34.493669 #8069]  INFO -- : worker=0 ready
+I, [2015-06-11T07:37:35.500438 #8086]  INFO -- : worker=1 ready
+I, [2015-06-11T07:37:36.509619 #8089]  INFO -- : worker=2 ready
+I, [2015-06-11T07:37:37.515083 #8092]  INFO -- : worker=3 ready
+I, [2015-06-11T07:37:38.519448 #8095]  INFO -- : worker=4 ready
+I, [2015-06-11T07:37:39.525433 #8100]  INFO -- : worker=5 ready
+I, [2015-06-11T07:37:40.527417 #8105]  INFO -- : worker=6 ready
+I, [2015-06-11T07:37:41.526447 #8053]  INFO -- : master process ready
+I, [2015-06-11T07:37:41.535996 #8108]  INFO -- : worker=7 ready
