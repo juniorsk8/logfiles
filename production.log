@@ -1,0 +1,181 @@
+I, [2015-06-24T03:37:10.075491 #25565]  INFO -- : Started HEAD "/" for 127.0.0.1 at 2015-06-24 03:37:10 +0000
+I, [2015-06-24T04:34:14.710047 #25550]  INFO -- : Started HEAD "/" for 127.0.0.1 at 2015-06-24 04:34:14 +0000
+I, [2015-06-24T09:22:37.372720 #25565]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-06-24 09:22:37 +0000
+I, [2015-06-24T11:08:48.713410 #25585]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-06-24 11:08:48 +0000
+I, [2015-06-24T14:13:58.778529 #25561]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-06-24 14:13:58 +0000
+I, [2015-06-24T15:32:20.256878 #25592]  INFO -- : Started HEAD "/" for 127.0.0.1 at 2015-06-24 15:32:20 +0000
+I, [2015-06-24T15:37:13.414996 #25585]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-06-24 15:37:13 +0000
+I, [2015-06-24T15:59:10.318584 #25565]  INFO -- : Started HEAD "/" for 127.0.0.1 at 2015-06-24 15:59:10 +0000
+I, [2015-06-24T19:51:34.960394 #25550]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-06-24 19:51:34 +0000
+I, [2015-06-24T20:07:26.461358 #25592]  INFO -- : Started GET "/muieblackcat" for 127.0.0.1 at 2015-06-24 20:07:26 +0000
+F, [2015-06-24T20:07:26.465632 #25592] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/muieblackcat"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:576:in `process_client'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:670:in `worker_loop'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.3) bin/unicorn:126:in `<top (required)>'
+  /home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn:23:in `load'
+  /home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn:23:in `<main>'
+
+
+I, [2015-06-24T20:07:26.529149 #25585]  INFO -- : Started GET "//phpMyAdmin/scripts/setup.php" for 127.0.0.1 at 2015-06-24 20:07:26 +0000
+F, [2015-06-24T20:07:26.532952 #25585] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/phpMyAdmin/scripts/setup.php"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:576:in `process_client'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:670:in `worker_loop'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.3) bin/unicorn:126:in `<top (required)>'
+  /home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn:23:in `load'
+  /home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn:23:in `<main>'
+
+
+I, [2015-06-24T20:07:26.593068 #25561]  INFO -- : Started GET "//phpmyadmin/scripts/setup.php" for 127.0.0.1 at 2015-06-24 20:07:26 +0000
+F, [2015-06-24T20:07:26.597329 #25561] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/phpmyadmin/scripts/setup.php"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:576:in `process_client'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:670:in `worker_loop'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.3) bin/unicorn:126:in `<top (required)>'
+  /home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn:23:in `load'
+  /home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn:23:in `<main>'
+
+
+I, [2015-06-24T20:07:26.655940 #25565]  INFO -- : Started GET "//pma/scripts/setup.php" for 127.0.0.1 at 2015-06-24 20:07:26 +0000
+F, [2015-06-24T20:07:26.662342 #25565] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/pma/scripts/setup.php"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:576:in `process_client'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:670:in `worker_loop'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.3) bin/unicorn:126:in `<top (required)>'
+  /home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn:23:in `load'
+  /home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn:23:in `<main>'
+
+
+I, [2015-06-24T20:07:26.733361 #25568]  INFO -- : Started GET "//myadmin/scripts/setup.php" for 127.0.0.1 at 2015-06-24 20:07:26 +0000
+F, [2015-06-24T20:07:26.767521 #25568] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/myadmin/scripts/setup.php"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:576:in `process_client'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:670:in `worker_loop'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.3) bin/unicorn:126:in `<top (required)>'
+  /home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn:23:in `load'
+  /home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn:23:in `<main>'
+
+
+I, [2015-06-24T20:07:26.829659 #25585]  INFO -- : Started GET "//MyAdmin/scripts/setup.php" for 127.0.0.1 at 2015-06-24 20:07:26 +0000
+F, [2015-06-24T20:07:26.833086 #25585] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/MyAdmin/scripts/setup.php"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:576:in `process_client'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:670:in `worker_loop'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.3) bin/unicorn:126:in `<top (required)>'
+  /home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn:23:in `load'
+  /home/web/swift-explorer/shared/bundle/ruby/2.1.0/bin/unicorn:23:in `<main>'
+
+
+I, [2015-06-24T21:21:05.156326 #25568]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-06-24 21:21:05 +0000
+I, [2015-06-25T00:12:25.895667 #25592]  INFO -- : Started GET "/?PHPSESSID=a45ad01b00143PZVJWQ_FJCFRG" for 127.0.0.1 at 2015-06-25 00:12:25 +0000
+I, [2015-06-25T00:30:11.348989 #25565]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-06-25 00:30:11 +0000
+I, [2015-06-25T00:30:11.665279 #25561]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2015-06-25 00:30:11 +0000
+I, [2015-06-25T00:30:11.676162 #25561]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2015-06-25T00:30:11.786024 #25561]  INFO -- :   Rendered devise/sessions/new.html.erb within layouts/application (52.5ms)
+I, [2015-06-25T00:30:11.789985 #25561]  INFO -- :   Rendered layouts/_messages.html.erb (0.8ms)
+I, [2015-06-25T00:30:11.793373 #25561]  INFO -- :   Rendered layouts/_navigation_links.html.erb (0.7ms)
+I, [2015-06-25T00:30:11.793470 #25561]  INFO -- :   Rendered layouts/_navigation.html.erb (2.8ms)
+I, [2015-06-25T00:30:11.793952 #25561]  INFO -- : Completed 200 OK in 118ms (Views: 75.8ms | ActiveRecord: 4.7ms)
